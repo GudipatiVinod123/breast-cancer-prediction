@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-st.title("Breast cancer Prediction App")
+st.title("🎀 Breast Cancer Prediction App")
 st.write("This app predicts whether a person has Breast cancer based on their health parameters.")
 # Load the trained model
 model=joblib.load("breast_cancer_model.pkl")
@@ -88,6 +88,6 @@ if st.button("Predict"):
     prediction = model.predict(scaling)
 
     if prediction[0] == 1:
-        st.success("The person is having breast cancer.")
+        st.warning("🚨 The person is diagnosed with breast cancer")
     else:
         st.success("The person is not having breast cancer.")
