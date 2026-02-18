@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 import pandas as pd
 
-st.title("Diabetes Prediction App")
-st.write("This app predicts whether a person has diabetes based on their health parameters.")
+st.title("Breast cancer Prediction App")
+st.write("This app predicts whether a person has Breast cancer based on their health parameters.")
 # Load the trained model
 model=joblib.load("breast_cancer_model.pkl")
 model_scaler=joblib.load("scaler.pkl")
