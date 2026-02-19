@@ -3,7 +3,10 @@
 A Machine Learning web application that predicts whether a tumor is **Malignant** or **Benign** using Logistic Regression.
 
 ---
+## Live link :
+https://breast-cancer-prediction-hpcbvmp3rag3uefs4cxpj8.streamlit.app/
 
+---
 ## 📌 Project Overview
 
 This project uses:
